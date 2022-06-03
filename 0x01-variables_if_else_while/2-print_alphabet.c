@@ -2,11 +2,12 @@
 
 int main(void)
 {
-	char alphabet = 'abcdefghijklm';
-	char alphabet1 = 'nopqrstuvwxyz';
+	char alphabet = 'a';
 
-	putchar(alphabet);
-	putchar(alphabet1);
+	for (int i = 97; i <= 122; i++)
+	{
+		putchar(i);
+	}	
 
 	return (0);
 }
