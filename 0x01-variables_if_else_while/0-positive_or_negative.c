@@ -2,10 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 
-use strict;
-use warnings;
-use File::Basename;
-
 int main(void)
 {
 	int n;
