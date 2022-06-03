@@ -2,7 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-## main function ##
+use strict;
+use warnings;
+use File::Basename;
+
 int main(void)
 {
 	int n;
